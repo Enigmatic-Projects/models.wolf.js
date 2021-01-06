@@ -1,5 +1,16 @@
-import Greeter from "./Greeter";
+import { ISubscriber, ISubscriberCharms, ISubscriberExtended, Subscriber, SubscriberCharms, SubscriberExtended } from './Subscriber';
 
-export { Greeter };
+export {
+    ISubscriber,
+    ISubscriberCharms,
+    ISubscriberExtended,
+    Subscriber,
+    SubscriberCharms,
+    SubscriberExtended
+};
 
-module.exports.Greeter = Greeter;
+module.exports = {
+    Subscriber,
+    SubscriberCharms,
+    SubscriberExtended,
+}
