@@ -4,6 +4,8 @@ import type IGroupAudioConfig from "./IGroupAudioConfig";
 import type IGroupAudioCounts from "./IGroupAudioCounts";
 import type IGroupBase from "./IGroupBase";
 import type IGroupExtended from "./IGroupExtended";
+import type IGroupMember from "./IGroupMember";
+import type IGroupMemberAdditionalInfo from "./IGroupMemberAdditionalInfo";
 import type ISelectedCharm from "./ISelectedCharm";
 import type ISubscriber from "./ISubscriber";
 import type ISubscriberCharms from "./ISubscriberCharms";
@@ -16,6 +18,8 @@ export {
   IGroupAudioCounts,
   IGroupBase,
   IGroupExtended,
+  IGroupMember,
+  IGroupMemberAdditionalInfo,
   ISelectedCharm,
   ISubscriber,
   ISubscriberCharms,
